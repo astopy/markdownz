@@ -30,7 +30,7 @@ module.exports = {
 
     imageLink: function(url, title) {
         var imageTitle = title || "Example Alt Text";
-        var imageUrl = url || "http://bit.ly/15CY6wE";
+        var imageUrl = url || "https://bit.ly/15CY6wE";
         return makeMarkdownHelper(`![${imageTitle}](`, imageUrl, ')');
     },
 
